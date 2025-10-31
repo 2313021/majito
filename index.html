@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Maria José 💙</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a7c7e7, #e3f2fd);
+      color: #1a237e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    header {
+      margin-top: 60px;
+      font-size: 2.8rem;
+      font-weight: 600;
+      color: #0d47a1;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      color: #0d47a1;
+      margin: 20px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    .cta {
+      margin: 30px 0;
+    }
+
+    .btn {
+      background-color: #1565c0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      margin: 8px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0d47a1;
+    }
+
+    .gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px 0;
+    }
+
+    .gallery img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 16px;
+      box-shadow: 0 6px 14px rgba(42,111,219,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 10px 25px rgba(13,71,161,0.3);
+    }
+
+    .tulip-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 30px 0;
+      font-size: 1.5rem;
+    }
+
+    .volley-badge {
+      background-color: #0d47a1;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 25px;
+      font-weight: 600;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 30px 0;
+      font-size: 1rem;
+      color: #1565c0;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 2rem;
+      }
+      .gallery img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .romantic-intro {
+  margin-top: 40px;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+  position: relative;
+}
+
+.typewriter h2 {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid #1565c0;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 1.5px;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-size: 1.4rem;
+  color: #0d47a1;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #1565c0; }
+}
+
+.floating-hearts {
+  position: relative;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.floating-hearts span {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.5rem;
+  animation: rise 5s infinite ease-in-out;
+  opacity: 0.8;
+}
+
+.floating-hearts span:nth-child(1) { left: 20%; animation-delay: 0s; }
+.floating-hearts span:nth-child(2) { left: 50%; animation-delay: 1.5s; }
+.floating-hearts span:nth-child(3) { left: 70%; animation-delay: 3s; }
+.floating-hearts span:nth-child(4) { left: 90%; animation-delay: 2s; }
+
+@keyframes rise {
+  0% { transform: translateY(0); opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-80px); opacity: 0; }
+}
+
+.magic-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #42a5f5, #1e88e5);
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.magic-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(30,136,229,0.3);
+}
+
+#video-container {
+  display: none;
+  margin-top: 30px;
+  text-align: center;
+  animation: fadeIn 1s ease forwards;
+}
+
+#video-container video {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+  </style>
+</head>
+
+<body>
+  <header>Para Mi flaquita 💙</header>
+  <p>Eres mi tulipán favorito y mi compañera de todos los días.  
+  Gracias por tanto amor, por tus sonrisas y por ser mi inspiración. 🌷</p>
+
+ <div class="romantic-intro">
+  <div class="typewriter">
+    <h2>💙 Cada momento contigo es un recuerdo hermoso... 💙</h2>
+  </div>
+  <div class="floating-hearts">
+    <span>💙</span><span>💫</span><span>🌷</span><span>✨</span>
+  </div>
+  <div class="cta">
+  <button id="ver-recuerdos" class="btn">Ver nuestros recuerdos 🎥</button>
+</div>
+
+<div id="video-container" class="hidden">
+  <video controls>
+    <source src="videos/video.mp4" type="video/mp4">
+  </video>
+</div>
+
+</div>
+
+
+  <div class="tulip-row">
+    <div class="volley-badge">🏐 Voleibol</div>
+    <div class="tulip">🌷🌷🌷</div>
+  </div>
+
+  <div class="gallery" id="recuerdos">
+    <img src="imagenes/foto1.jpeg" alt="Maria y yo en el columpio">
+    <img src="imagenes/foto2.jpeg" alt="Selfie con vista nocturna">
+    <img src="imagenes/foto3.jpeg" alt="Sonriendo juntos">
+  </div>
+
+  <footer>
+    <div>Hecho con mucho cariño para Maria José 💙</div>
+  </footer>
+
+  <script>
+    document.querySelector('header').addEventListener('click', e => {
+      e.currentTarget.animate([
+        { transform: 'scale(1)' },
+        { transform: 'scale(1.08)' },
+        { transform: 'scale(1)' }
+      ], { duration: 420 });
+    });
+  </script>
+
+  <script>
+  document.getElementById('ver-recuerdos').addEventListener('click', function() {
+    const videoContainer = document.getElementById('video-container');
+    videoContainer.style.display = 'block';
+    videoContainer.scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>
